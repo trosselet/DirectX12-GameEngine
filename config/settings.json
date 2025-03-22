@@ -1,0 +1,38 @@
+{
+    "projects": {
+        "Application": {
+            "additionalDependencies": [],
+            "additionalIncludeDirectories": [],
+            "additionalLibraryDirectories": [],
+            "dependencies": [
+                "Engine"
+            ],
+            "dependents": [],
+            "guid": "1EFB49A4-71AC-1E7C-1282-4B7D1417079D",
+            "lib": false,
+            "pch": true,
+            "preprocessorDefinitions": [],
+            "vcpkg": false,
+            "window": true
+        },
+        "Engine": {
+            "additionalDependencies": [],
+            "additionalIncludeDirectories": [],
+            "additionalLibraryDirectories": [],
+            "dependencies": [],
+            "dependents": [
+                "Application"
+            ],
+            "guid": "067B23B6-0182-2591-2739-2633751F5DBF",
+            "lib": true,
+            "pch": true,
+            "preprocessorDefinitions": [],
+            "vcpkg": false,
+            "window": false
+        }
+    },
+    "solution_guid": "05D11C71-54DA-0DB5-7814-08957CE83059",
+    "solution_name": "GameEngine",
+    "startup_project": "Application",
+    "version": "1.17.4"
+}
