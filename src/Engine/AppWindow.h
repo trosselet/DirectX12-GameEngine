@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../lyo-t2-amiga-p7-07/src/Application/Scene.h"
+#include "Application/Scene.h"
 #include "GraphicEngine.h"
 #include "ECSManager.h"
 
