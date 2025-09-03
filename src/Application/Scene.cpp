@@ -27,7 +27,7 @@ bool Scene::Initialize()
 
 
 	mpGraphicEngine->Get()->CreateCube(1.0f, 1.0f, 1.0f, 0.0f, 0.0f, 0.0f, L"../../src/Engine/Texture/bricks.dds", nullptr);
-	mpGraphicEngine->Get()->CreateCube(1.0f, 2.0f, 2.0f, 4.0f, 0.0f, 0.0f, L"../../src/Engine/Texture/wood.dds", nullptr);
+	//mpGraphicEngine->Get()->CreateCube(1.0f, 2.0f, 2.0f, 4.0f, 0.0f, 0.0f, L"../../src/Engine/Texture/wood.dds", nullptr);
 	//mpGraphicEngine->Get()->CreateMeshFromFile(L"../../res/Engine/statue.obj", 1.0f, 1.0f, 1.0f, -20.0f, 0.0f, 0.0f, L"../../src/Engine/Texture/wood.dds",nullptr);
 	//mpGraphicEngine->Get()->CreateMeshFromFile(L"../../res/Engine/sphere.obj", 1.0f, 1.0f, 1.0f, 6.0f, 0.0f, 0.0f, L"../../src/Engine/Texture/sky.dds", nullptr);
 	mpGraphicEngine->Get()->CreateMeshFromFile(L"../../res/Engine/asteroid.obj", 0.5f, 0.5f, 0.5f, 0.0f, 20.0f, -2.0f, L"../../src/Engine/Texture/asteroid.dds", nullptr);
